@@ -31,9 +31,9 @@
 
 				<div class="c_center" id="person_info">
 					<img src="/Blog/img/header.jpg" height="130" width="130"
-						alt="丢失了我的头像?" class="img-circle">
+						alt="我的头像?" class="img-circle">
 					<h4 class="text-muted">Lemonreds</h4>
-					<h5 class="text-muted">星星和浮云.</h5>
+					<h5 class="text-muted">小星星.</h5>
 				</div>
 
 				<div class="c_center">
