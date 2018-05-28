@@ -76,5 +76,28 @@
 				</div>
 				<!-- list -->
 					<br/>
+				<div class="sort">
+					<div class="list-group">
+						<span class="list-group-item active">分类</span>						
+						<!-- 这里初始化分类 -->
+						<c:forEach var="entity"  items="${sort_count_map}">
+						 <a href="/Blog/SortServlet?get=${entity.key}" class="list-group-item">${entity.key}&nbsp;&nbsp;&nbsp;&nbsp; (${entity.value})</a>						
+						</c:forEach>									
+						<!-- 初始化结束 -->						
+					</div>
+				</div><!-- sort -->
+
+				
+				<div class="visit">
+					<div class="list-group">
+						<span class="list-group-item active">阅读排行</span>						
+						<!-- 这里初始化阅读排行 -->
+						<c:forEach var="a"  items="${visit_rank}">
+						 <a href="/Blog/ArticleServlet?id=${a.id}" class="list-group-item">${a.title}&nbsp;&nbsp; <span class="c_right">(${a.visit})</span></a>						
+						</c:forEach>									
+						<!-- 初始化结束 -->						
+					</div>
+				</div><!-- visit-->
+	
           </body>
           </html>
