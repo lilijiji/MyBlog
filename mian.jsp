@@ -173,7 +173,7 @@
 			&nbsp;|
 			<a href="#">&nbsp;&nbsp;MyBlog</a>
 			<br/>
-			copyright © 2017
+			copyright © 2018
 		</div>		
 		
 		<div class="r_div">
