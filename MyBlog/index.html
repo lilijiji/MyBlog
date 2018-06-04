@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>首页_李吉个人博客 - 一个在记录生活的个人博客网站</title>
+<meta name="keywords" content="个人博客,李吉个人博客,个人博客模板,李吉" />
+<meta name="description" content="李吉个人博客，是一个在记录生活和感悟的网站。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<link href="css/m.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easyfader.min.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+  <div id="mnav">
+    <h2><span class="navicon"></span></h2>
+    <ul>
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">书籍分享</a></li>
+      <li><a href="list.html">放肆青春</a></li>
+      <li><a href="link.html">博客导航</a></li>
+      <li><a href="gbook.html">留言</a></li>
+    </ul>
+  </div>
+  <div class="topnav">
+    <nav>
+      <ul>
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">书籍分享</a></li>
+      <li><a href="list.html">放肆青春</a></li>
+      <li><a href="link.html">博客导航</a></li>
+      <li><a href="gbook.html">留言</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<article>
+  <div class="banner">
+    <div id="sucaihuo" class="fader"> <img class="slide" src="images/banner01.jpg"> <img class="slide" src="images/banner02.jpg"> <img class="slide" src="images/banner03.jpg">
+      <div class="fader_controls">
+        <div class="page prev" data-target="prev">&lsaquo;</div>
+        <div class="page next" data-target="next">&rsaquo;</div>
+        <ul class="pager_list">
+        </ul>
+      </div>
+    </div>
+    <script>
+$(function() {
+	$('#sucaihuo').easyFader();
+});
+</script> 
+  </div>
+  <div class="blog" >
+    <figure>
+      <ul>
+        <a href="/"><img src="images/mb01.jpg"></a>
+      </ul>
+      <p><a href="/">《平凡的世界》（适合那些对人生还很迷茫的人看）</a></p>
+      <figcaption>一部现实主义小说，也是小说化的家族史。作家高度浓缩了中国西北农村的历史变迁过程，作品达到了思想性与艺术性的高度统一，特别是主人公面对困境艰苦奋斗的精神，对今天的大学生朋友仍有启迪。</figcaption>
+    </figure>
+    <figure>
+      <ul>
+        <a href="/"><img src="images/mb02.jpg"></a>
+      </ul>
+      <p><a href="/">《围城》</a></p>
+      <figcaption>小说没有明确的故事线索，只是一些由作者琐碎的见识和经历”拼凑”成的琐碎的情节。就一般而言，情节琐碎的书必然要有绝佳的言语表达才能成为一本成功的作品</figcaption>
+    </figure>
+    <figure>
+      <ul>
+        <a href="/"><img src="images/mb03.jpg"></a>
+      </ul>
+      <p><a href="/">《活着》（好看又便宜的书，不得不荐）</a></p>
+      <figcaption>地主少爷富贵嗜赌成性，终于赌光了家业一贫如洗，穷困之中的富贵因为母亲生病前去求医，没想到半路上被国民党部队抓了壮丁，后被解放军所俘虏，回到家乡他才知道母亲已经去世、、、</figcaption>
+    </figure>
+    <figure>
+      <ul>
+        <a href="/"><img src="images/mb04.jpg"></a>
+      </ul>
+      <p><a href="/">《人生》（人对生活选择）</a></p>
+      <figcaption>天闷热得像一口大蒸笼，黑沉沉的乌云正从西边的老牛山那边铺过来。地平线上，已经有一些零碎而短促的闪电。但还没有打雷。只听见那低沉的、连续不断的嗡嗡声从远方的天空传来。</figcaption>
+    </figure>
+  </div>
+  <div class="newblogs">
+    <h2 class="hometitle">激励我的句子！</h2>
+    <ul>
+      <li>
+         <img src="images/t01.jpg" alt="激励我的句子！" /></a>
+          <p>路是自己选的，所以即使以后会跌倒，会受伤，也都要学会自己承受，自己疗伤。我们都是这样，学会长大的。</p>
+        </div>
+      </li>
+     <div class="newblogs">
+    <h2 class="hometitle">我最爱的语句</h2>
+    <ul>
+      <li>
+         <img src="images/t03.jpg" alt="我最爱的语句" /></a>
+          <p>当我们是大为谦卑的时候，便是我们最近于伟大的时候.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
