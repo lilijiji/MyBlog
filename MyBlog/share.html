@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>书籍分享_李吉个人博客 - 一个记录生活的个人博客网站</title>
+<meta name="keywords" content="个人博客,李吉个人博客" />
+<meta name="description" content="李吉个人博客，是一个记录生活个人网站。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/share.css" rel="stylesheet">
+<link href="css/m.css" rel="stylesheet">
+<script src="js/scrollReveal.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+  <div id="mnav">
+    <h2><span class="navicon"></span></h2>
+    <ul>
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">书籍分享</a></li>
+      <li><a href="list.html">放肆青春</a></li>
+      <li><a href="link.html">博客导航</a></li>
+      <li><a href="gbook.html">留言</a></li>
+    </ul>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">书籍分享</a></li>
+      <li><a href="list.html">放肆青春</a></li>
+      <li><a href="link.html">博客导航</a></li>
+      <li><a href="gbook.html">留言</a></li>
+    </ul>
+  </nav>
+</header>
+<article>
+  <h2 class="litle"><span>好咖啡要和朋友一起品尝，好“书籍”也要和同样喜欢它的人一起分享。</span>书籍分享</h2>
+  <div class="navtab">
+    <div class="search">
+      <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="show" value="title" type="hidden">
+        <input name="tempid" value="1" type="hidden">
+        <input name="tbname" value="news" type="hidden">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    <ul class="navlist" id="pageContent">
+      <li><a href="list.html">推荐！</a></li>
+    </ul>
+<script language="javascript"> 
+var obj=null;
+var As=document.getElementById('pageContent').getElementsByTagName('li');
+obj = As[0];
+for(i=1;i<As.length;i++){if(window.location.href.indexOf(As[i].href)>=0)
+obj=As[i];}
+obj.id='pagecurrent'
+</script>
+  </div>
+  <div class="mbbox">
+  <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb01.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《平凡的世界》</a> </div>
+    <p class="mbinfo">一部现实主义小说，也是小说化的家族史。作家高度浓缩了中国西北农村的历史变迁过程，作品达到了思想性与艺术性的高度统一，特别是主人公面对困境艰苦奋斗的精神，对今天的大学生朋友仍有启迪。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb02.jpg" > </div>
+    <div class="mbtitle"><a href="/">《围城》</a> </div>
+    <p class="mbinfo">小说没有明确的故事线索，只是一些由作者琐碎的见识和经历”拼凑”成的琐碎的情节。就一般而言，情节琐碎的书必然要有绝佳的言语表达才能成为一本成功的作品。钱钟书的《围城》果真是把语言运用到了登峰造极的境界。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb03.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《活着》</a> </div>
+    <p class="mbinfo">地主少爷富贵嗜赌成性，终于赌光了家业一贫如洗，穷困之中的富贵因为母亲生病前去求医，没想到半路上被国民党部队抓了壮丁，后被解放军所俘虏，回到家乡他才知道母亲已经去世，妻子家珍含辛茹苦带大了一双儿女，但女儿不幸变成了聋哑人，儿子机灵活泼</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb04.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《人生》</a> </div>
+    <p class="mbinfo">天闷热得像一口大蒸笼，黑沉沉的乌云正从西边的老牛山那边铺过来。地平线上，已经有一些零碎而短促的闪电。但还没有打雷。只听见那低沉的、连续不断的嗡嗡声从远方的天空传来，带给人一种恐怖的信息一场大雷雨就要到来了。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb05.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《第一炉香》</a> </div>
+    <p class="mbinfo">张爱玲在《第一香炉》中，硬是一片片地把结痂的伤口，剥划出淋漓的鲜血，让读者触视无法完美的痛罪。她一直在理智而清醒地把薇龙推到人性的决裂口，然后步入深渊。当我们被惊醒时，才恍然大悟，葛薇龙的故事似乎就是每个时代，人性中的一个噩梦。
+</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb06.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《穆斯林的葬礼》</a> </div>
+    <p class="mbinfo">《穆斯林的葬礼》是一部长篇小说，一个穆斯林家族，六十年间的兴衰，三代人命运的沉浮，两个发生在不同时代、有着不同内容却又交错扭结的爱情悲剧。</p>
+  </div>
+      <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb07.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《黄金时代》</a> </div>
+    <p class="mbinfo">这部作品叙述出知青时代的另一种生活，那是压抑和反压抑的生活，王二和陈清扬顺应本能欲望，自然而坦然地结合在一起，表现了以青春率性而行的人性之真实，在这里身体得到了彻底的解放，因而是青春生命中的黄金时代。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb08.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《三体》</a> </div>
+    <p class="mbinfo">刘慈欣在《三体》中完成了一个几乎无法完成的梦想。他近乎完美地把中国五千年历史与宇宙一百五十亿年现实融合在了一起，挑战令一代代人困惑的道德律令与自然法则冲突互存的极限。又以他那超越时代的宏伟叙事和深邃构想，把科幻这种逻辑严密而感情丰沛的文学样式，空前地展示在众多的普通中国</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb01.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《平凡的世界》</a> </div>
+    <p class="mbinfo">一部现实主义小说，也是小说化的家族史。作家高度浓缩了中国西北农村的历史变迁过程，作品达到了思想性与艺术性的高度统一，特别是主人公面对困境艰苦奋斗的精神，对今天的大学生朋友仍有启迪。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb02.jpg" > </div>
+    <div class="mbtitle"><a href="/">《围城》</a> </div>
+    <p class="mbinfo">小说没有明确的故事线索，只是一些由作者琐碎的见识和经历”拼凑”成的琐碎的情节。就一般而言，情节琐碎的书必然要有绝佳的言语表达才能成为一本成功的作品。钱钟书的《围城》果真是把语言运用到了登峰造极的境界。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb03.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《活着》</a> </div>
+    <p class="mbinfo">地主少爷富贵嗜赌成性，终于赌光了家业一贫如洗，穷困之中的富贵因为母亲生病前去求医，没想到半路上被国民党部队抓了壮丁，后被解放军所俘虏，回到家乡他才知道母亲已经去世，妻子家珍含辛茹苦带大了一双儿女，但女儿不幸变成了聋哑人，儿子机灵活泼</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb04.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《人生》</a> </div>
+    <p class="mbinfo">天闷热得像一口大蒸笼，黑沉沉的乌云正从西边的老牛山那边铺过来。地平线上，已经有一些零碎而短促的闪电。但还没有打雷。只听见那低沉的、连续不断的嗡嗡声从远方的天空传来，带给人一种恐怖的信息一场大雷雨就要到来了。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb05.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《第一炉香》</a> </div>
+    <p class="mbinfo">张爱玲在《第一香炉》中，硬是一片片地把结痂的伤口，剥划出淋漓的鲜血，让读者触视无法完美的痛罪。她一直在理智而清醒地把薇龙推到人性的决裂口，然后步入深渊。当我们被惊醒时，才恍然大悟，葛薇龙的故事似乎就是每个时代，人性中的一个噩梦。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb06.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《穆斯林的葬礼》</a> </div>
+    <p class="mbinfo">《穆斯林的葬礼》是一部长篇小说，一个穆斯林家族，六十年间的兴衰，三代人命运的沉浮，两个发生在不同时代、有着不同内容却又交错扭结的爱情悲剧。</p>
+  </div>
+      <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb07.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《黄金时代》</a> </div>
+    <p class="mbinfo">这部作品叙述出知青时代的另一种生活，那是压抑和反压抑的生活，王二和陈清扬顺应本能欲望，自然而坦然地结合在一起，表现了以青春率性而行的人性之真实，在这里身体得到了彻底的解放，因而是青春生命中的黄金时代。</p>
+  </div>
+    <div class="mbpic effect" data-scroll-reveal="enter from the bottom">
+    <div class="mbimg"> <img src="images/mb08.jpg" > </div>
+    <div class="mbtitle"> <a href="/">《三体》</a> </div>
+    <p class="mbinfo">刘慈欣在《三体》中完成了一个几乎无法完成的梦想。他近乎完美地把中国五千年历史与宇宙一百五十亿年现实融合在了一起，挑战令一代代人困惑的道德律令与自然法则冲突互存的极限。又以他那超越时代的宏伟叙事和深邃构想，把科幻这种逻辑严密而感情丰沛的文学样式，空前地展示在众多的普通中国</p>
+  </div>
+  </div> 
+  
+</article>
+<footer>
+  <p>Design by <a href="/">李吉个人博客</a></p>
+</footer>
+</body>
+</html>
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+(function(){
+window.scrollReveal = new scrollReveal({reset: true});
+})();
+};
+</script>
